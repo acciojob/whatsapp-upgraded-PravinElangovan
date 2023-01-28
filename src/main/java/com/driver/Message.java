@@ -7,7 +7,7 @@ public class Message {
     private String content;
     private Date timestamp;
 
-    public Message() {
+    public Message(int messageId, String content) {
     }
 
     public Message(int id, String content, Date timestamp) {
